@@ -1,0 +1,356 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Arial Narrow Bold', sans-serif;}
+    
+          /*header*/
+header{
+    display:flex;
+    justify-content: space-around;margin:20px}
+
+.navtools{
+    display:flex;
+    gap:20px}
+
+a{
+    color:rgb(146, 146, 146);
+    text-decoration: none;}
+
+a:hover{
+    cursor:pointer}
+
+/*section 1*/
+
+.leadsection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+    
+header img{
+    width:220px}
+
+
+#headerlogo{
+    width:33px;
+    margin:30px;
+    position:relative;
+    bottom:-38px
+    }
+    
+#headerp{
+        color:rgb(147, 207, 147);
+        font-size: 28px;
+        font-weight:normal;
+        margin:30px;font-family: 'Work Sans', sans-serif;
+
+        
+}
+
+.twoparagraphs{
+    display:flex;
+    justify-content: space-between;
+    font-size:14px;
+    color:rgb(138, 137, 137); 
+    line-height: 24px;
+    margin: 10px 100px 50px;
+    flex-wrap: nowrap;}
+
+    /*Section 2*/
+
+.p1,.p2{
+     display: block;
+    padding:20px
+    }
+
+.forsection{
+
+    display:flex;
+    justify-content:center;
+    align-items: center ;
+    width:100%;
+flex-wrap: wrap ;}
+
+.for1{
+    background:rgb(119, 204, 162);
+
+    height: 300px;
+    width:320px;
+    margin:5px;
+    padding:30px;
+    border-radius: 10px;
+    display:block;
+    flex-wrap: nowrap;}
+
+.forsection p{
+        font-size:20px
+        ;color:rgb(233, 233, 233);
+        margin:10px}
+          
+#for1title,#for2title,#for3title{
+        font-size:30px;
+        color:white;
+        }
+        
+select{
+    display: flex;
+    flex-direction: column;
+    margin:10px}
+
+#select1 select{
+   
+    position:relative;
+    top:20px;
+    padding-top:10px;
+    text-decoration: underline;
+    border:none;
+    color:white;
+    font-size:18px;
+    background:rgb(119, 204, 162);}
+
+.for2{
+    background:rgb(86, 125, 199);
+    width:320px;
+    height:300px;
+    margin:5px;
+    padding:30px;
+    border-radius: 10px;
+    display:block;
+    flex-wrap: wrap;}
+
+#select2 select{
+        position:relative;
+        top:20px;
+        padding-top:10px;
+        text-decoration: underline;
+        border:none;
+        color:rgb(236, 236, 236);
+        font-size:20px;
+        background:rgb(86, 125, 199)}
+        
+
+.for3{
+        background:rgb(36, 35, 35);
+        width:320px;
+        height: 300px;
+        margin:5px;
+        padding:30px;
+        border-radius: 10px;
+        display:block;
+        flex-wrap: wrap;}
+ 
+#select3 select{
+        position:relative;
+        top:2px;
+        padding-top:10px;
+        text-decoration: underline;
+        border:none;
+        color:rgb(221, 220, 220);
+        font-size:18px;
+        background:black}  
+ 
+        /*Section 3*/
+      
+  
+.section3{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 div{
+    display:flex;
+    width: 70%;
+    padding:10px}
+
+
+
+#section3logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+
+#section3logos img{
+    width:65px;
+    display:flex;
+    
+}
+
+
+#section3title{
+    color:rgb(121, 185, 121);
+    padding:15px;
+    font-size:20px;
+    line-height: 30px;
+}        
+   
+          /*Section 4*/ 
+
+.section4{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background:rgb(208, 250, 244);
+}
+
+.section4header h2{
+    color:rgb(0, 179, 155);
+    margin:90px 10px 10px 30px;
+    padding:5px;
+    font-size:22px}
+
+.section4header p{
+     font-size:14px;
+     padding:35px;
+    color:grey}
+
+.section4header img{
+    width:320px}
+
+.section4fourparts{
+    display:flex;
+    gap:20px;}
+
+#leader,#patients,#appointments,#doctors{
+    height:200px;
+    width:180px;
+    margin:10px;
+    background:white;
+    border-radius: 4px;
+    text-align: center;
+    font-size:11px;
+    padding:10px
+
+}
+#appointments{position:relative;bottom:20px}
+#doctors{position:relative;bottom:17px}
+#patients{position:relative;top:5px}
+
+#leader img,#patients img,#appointments img,#doctors img{
+    width:24px;
+    margin-top:30px
+}
+
+#leader h3,#patients h3,#appointments h3,#doctors h3{
+    color:rgb(0, 179, 155);
+    font-size:15px;
+    padding: 8px;
+}
+
+
+        /*Section 5*/
+
+.section5{display:flex;
+    justify-content: center;
+    align-items: center;}
+
+.section5 h3{
+    color:rgb(131, 202, 153);
+    text-align:center;
+    margin-top:50px;
+    font-size: 22px;
+    padding:20px}
+
+.section5 p{
+    color:rgb(138, 137, 137);
+    font-size:14px;
+    margin-top:15px;
+    text-align: center;}
+
+/*Section 6*/
+
+.section6{display:flex;
+    justify-content: center;
+    padding:100px;
+}
+
+.country{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:7px;
+    
+}
+
+.section6 p{
+    margin:12px}
+
+.section6 .buttons{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px;
+    border-radius: 5px;
+    font-size: 15px}
+
+.section6 button{
+    background:rgba(96, 110, 231, 0.911);
+    color:white;
+    padding:9px;
+    font-size: 9.3px;
+    border:none;
+    border-radius:4px;   
+    }
+
+.section6 button:hover{
+    cursor:pointer}
+
+.country div:last-of-type img{
+        position:relative;left:480px;}
+
+.country div:last-of-type .buttons p{
+        position:relative;left:480px}
+
+.country div:last-of-type .buttons button {
+        position:relative;left:480px}
+
+            /*Section 7*/
+
+.section7{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.section7 h1{
+    color:rgb(110, 110, 110)
+    ;padding:10px;
+    position:relative;
+    bottom:20px;
+    font-size: 23px;
+    color:rgb(131, 130, 130)               
+}
+.section7 button{
+     text-align: center;
+     margin-left:100px;
+     color:white;
+     background:rgba(96, 110, 231, 0.911);
+     border-radius: 5px;
+     border:none;
+     padding:10px;
+     font-size: 11px;
+     font-weight:700;
+     
+     
+}
+.end{
+    text-align: center;
+    padding:10px;
+    margin:40px;
+    font-size: 10px;
+    color:grey
+}
+
+.end p{padding:20px
+    ;font-size:10px
+    ;line-height:15px;
+    
+}
+
+.end a{
+    color:rgb(116, 116, 223)}
